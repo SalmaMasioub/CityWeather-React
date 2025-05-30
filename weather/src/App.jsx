@@ -5,6 +5,7 @@ import Home from './pages/home/home';
 import ErrorPage from './layout/error';
 import Weather from './pages/weather/weather';
 import WeatherPage from './pages/weather/weather';
+import { ContactUs } from './pages/contact/conatct';
 const App = () => {
   return (
     <Router>
@@ -14,6 +15,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="*" element={<ErrorPage />} />
 <Route path='/weather' element={<WeatherPage/>}/>
+<Route path="/contact" element={<ContactUs />} />
         </Routes>
       </main>
     </Router>

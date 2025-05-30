@@ -26,6 +26,7 @@ const Navbar = () => {
           <ul className="flex space-x-8 text-gray-700 font-medium">
             <li><Link to="/">Home</Link></li>
             <li><Link to="/weather">Weather</Link></li>
+              <li><Link to="/contact">ContactUs</Link></li>
           </ul>
           <form onSubmit={handleSearch} className="relative text-gray-600">
             <input
